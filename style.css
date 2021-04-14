@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Inconsolata");
+@import url("https://fonts.googleapis.com/css?family=Hammersmith+One");
+body {
+  font-family: "Hammersmith One", sans-serif;
+  background-image: url(https://images.unsplash.com/photo-1528731708534-816fe59f90cb?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=cfe7eaa284ca0e1f48a0558ad3bdb371);
+}
+
+#editor {
+  height: 450px;
+  border-radius: 5px;
+  font-family: "Inconsolata", monospace;
+  resize: none;
+}
+#editor:focus {
+  outline: none;
+}
+
+.Mycontainer {
+  margin: 30px;
+}
+
+#preview {
+  font-family: "Helvetica", sans-serif;
+  border: 1px solid #888;
+  border-radius: 6px;
+  height: 450px;
+  background: #eee;
+  color: black;
+  overflow: auto;
+  text-align: left;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Markdown Previewer</title>
+  </head>
+  <body>
+    <div>
+      <h1 align="center" class="mt-3">Markdown Previewer</h1>
+      <hr />
+      <div class="Mycontainer">
+        <div class="row">
+          <div class="col-md-12 col-lg-6 text-center">
+            <h5 class="mb-1">MarkDown</h5>
+            <textarea
+              id="editor"
+              class="p-3 bg-dark text-white col-md-12 col-lg-12"
+            ></textarea>
+          </div>
+          <hr />
+          <div class="col-md-12 col-lg-6 text-center">
+            <h5 class="mb-2 col-md-12 left">Output</h5>
+            <div class="p-3 col-md-12 col-lg-12 well" id="preview"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.5.0/marked.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css"></script>
+  <script src="./script.js"></script>
+</html>
